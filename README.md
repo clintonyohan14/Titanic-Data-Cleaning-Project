@@ -1,22 +1,27 @@
-# Titanic Data Cleaning Project
+# Titanic Data Cleaning & Preprocessing Project
 
-## Objective
-To clean and preprocess the Titanic dataset for machine learning modeling.
+## 📌 Objective
+Clean and preprocess the Titanic dataset to make it suitable for machine learning modeling.
 
-## Steps Performed
-- Handled missing values
-- Dropped irrelevant columns
-- Encoded categorical variables
-- Removed unnecessary features
-- Exported clean dataset
-- Performed basic visualization
-
-## Tools Used
+## 🛠 Tools Used
 - Python
 - Pandas
 - NumPy
-- Seaborn
 - Matplotlib
+- Seaborn
 
-## Outcome
-Generated a clean dataset ready for ML model training.
+## 🔍 Steps Performed
+- Initial data inspection
+- Missing value treatment
+- Dropping irrelevant columns
+- Encoding categorical variables
+- Visualization
+- Exported clean dataset
+
+## 📊 Output
+- Clean dataset ready for ML (`clean_titanic.csv`)
+- Visual analysis of survival and fare distribution
+
+## 📁 Project Structure
+- titanic_cleaning.py → Main cleaning script
+- clean_titanic.csv → Final cleaned dataset
